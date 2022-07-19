@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Smooch&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="header-wrapper">
+      <a href="index.html"><img class="header-wrapper-img" src="Img/logo.png" alt="" /></a>
+      <nav class="header-nav">
+        <ul class="header-nav-ul">
+          <li class="header-nav-ul-li header-nav-ul-li1">
+            <div class="dropdown">
+              <div class="dropbtn">
+                <span onclick="myFunctionOne()" class="dropbtn1 exchange">Currency</span>
+                <p class="dropdown-p">&#10094;</p>
+                <div id="myDropdown" class="dropdown-content">
+                  <div class="exchange_value_AMD">AMD <img class="img1" src="./Img/armenian.png" alt=""></div>
+                  <div class="exchange_value_USD">USD <img class="img1" src="./Img/usa-flag.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-ul-li header-nav-ul-li2">
+            <div class="dropdown3">
+              <button class="dropbtn3 menu">Menu</button>
+              <div class="dropdown-content3">
+                <a onclick="section2Upgrade1()" href="#PIZZA" class="pizza">PIZZA</a>
+                <a onclick="section2Upgrade2()" href="#SUSHI" class="sushi">SUSHI</a>
+                <a onclick="section2Upgrade3()" href="#SALATS" class="salates">SALATS</a>
+                <a onclick="section2Upgrade4()" href="#BURGER" class="burger">BURGER</a>
+                <a onclick="section2Upgrade5()" href="#DERSEST" class="drinks">DRINKS</a>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-ul-li header-nav-ul-li3 about">About</li>
+          <li class="header-nav-ul-li header-nav-ul-li4 Book-Table"><a class="header-nav-ul-li Book-Table-a" href="#section6">Book a Table</a></li>
+          <li class="header-nav-ul-li header-nav-ul-li5 contact">Contact</li>
+        </ul>
+      </nav>
+      <div class="div-with-phone-number">
+        <img class="scooter" src="Img/scooter.png" alt="" />
+        <div class="div-with-phone-number-inside">
+          <p class="call_order">Call and Order In</p>
+          <span>+111-222-333-444<span>
+        </div>
+      </div>
+      <div class="header-search">
+
+      </div>
+      <div class="header-like">
+        <p class="header-like-p">0</p>
+      </div>
+      <div class="header-shoping-cart">
+        <p class="header-shoping-cart-p">0</p>
+      </div>
+    </div>
+    <img id = "arm" src="Img/Armenia.png" alt="">
+    <img id = "eng" src="Img/USA.png" alt="">
+  </header>
+
+  <header id="header2" class="burger-header">
+    <div class="header-wrapper2">
+      <img id="burger-menu" src="Img/menu.png" alt="">
+      <a href="index.html"><img class="header-wrapper-img" src="Img/logo.png" alt="" /></a>
+      <a href="tel:+37498960959"><img class="header-wrapper2-img3" src="Img/phone-call (1).png" alt=""></a>
+    </div>
+  </header>
+  <div class="about_appear">
+    <img class="about_appear_cancel cancel" src="Img/cancel.png" alt="">
+    <h1 class="about">About Us</h1>
+    <div class="about_appear_main">
+      <div class="about_appear_main_div1">
+        <p class="welcome">Wellome!</p>
+      <strong class="burger_ideas">Best burger ideas & traditions from the whole world</strong>
+      <br>
+      <br>
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br> <br>
+        Mauris tempus erat laoreet turpis lobortis, eu tincidunt erat fermentum. Aliquam non tincidunt urna. Integer tincidunt nec nisl vitae ullamcorper. Proin sed ultrices erat.</span>
+      <div class="about_appear_main_button">
+        <a href="#" class="contact_us">CONTACT US</a>
+      </div>
+      </div>
+      <div class="about_appear_main_div2">
+        <img class="about_appear_main_div2_img1 about_appear_main_div2_img" src="Img/about-img1.webp" alt="">
+        <img class="about_appear_main_div2_img2 about_appear_main_div2_img" src="Img/about-img2.webp" alt="">
+        <img class="about_appear_main_div2_img3 about_appear_main_div2_img" src="Img/about-img3.webp" alt="">
+      </div>
+      <img class="about-vectors vector1" src="Img/about-back1.webp" alt="">
+      <img class="about-vectors vector2" src="Img/about-back2.webp" alt="">
+      <img class="about-vectors vector3" src="Img/about-back3.webp" alt="">
+    </div>
+    <div class="section4-small2">
+      <div class="section4-squares">
+        <img src="./Img/yellow-burger.png" alt="">
+        <p class="QUALITY">QUALITY FOODS</p>
+        <span class="quickly">Everything you order will be quickly<br> delivered to your door.</span>
+      </div>
+      <div class="section4-squares">
+        <img src="./Img/screenshot.png" alt="">
+        <p class="RECIPES">ORIGINAL RECIPES</p>
+        <span class="restaurants">Poco is an international chain of family<br> restaurants.</span>
+      </div>
+      <div class="section4-squares">
+        <img src="./Img/screenshot1.png" alt="">
+        <p class="DELIVERY">FAST DELIVERY</p>
+        <span class="shipping">Sign up for updates and get<br> free shipping</span>
+      </div>
+    </div>
+  </div>
+  <div class="contact_appear">
+    <div class="contact-appear-wrapper">
+      <img class="contact_appear_cancel cancel" src="Img/cancel.png" alt="">
+        <div class="contact-appear-wrapper-div1">
+          <p>Call us or visit place</p>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+        <div class="contact-appear-wrapper-div2">
+          <div class="contact-appear-wrapper-div2-divs">
+            <img src="./Img/smartphone.png" alt="">
+            <p>Phone</p>
+            <div class="divs-div">
+              <span>+ 44 123 456 78 90</span><br>
+              <span>+ 844 123 444 77 88</span>
+            </div>
+          </div>
+          <div class="contact-appear-wrapper-div2-divs">
+            <img src="./Img/placeholder.png" alt="">
+            <p>Address</p>
+            <div class="divs-div">
+              <span>Box 565, Pinney's Beach, Charlestown,</span><br>
+              <span>+ 844 123 444 77 88</span>
+            </div>
+          </div>
+          <div class="contact-appear-wrapper-div2-divs">
+            <img src="./Img/letter.png" alt="">
+            <p>Letter</p>
+            <div class="divs-div">
+              <span>+ 44 123 456 78 90</span><br>
+              <span>+ 844 123 444 77 88</span>
+            </div>
+          </div>
+        </div>
+        <form action="" class="contact-appear-wrapper-div3">
+          <div class="contact-appear-wrapper-div3-wrapper">
+            <span>Send us a message</span>
+            <div class="contact-appear-wrapper-div3-wrapper-div">
+              <input type="text" name="" id="" placeholder="Your name">
+              <input type="email" name="" id="" placeholder="Email">
+              <input type="text" name="" id="" placeholder="Subject">
+              <textarea placeholder="Comment"></textarea>
+              <button>SUBMIT</button>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+  <div class="header-menu-appear">
+    <div class="header-menu-appear-topHeader">
+      <p class="menu">Menu</p>
+      <span class="header-menu-appear-close close">CLOSE <strong>X</strong></span>
+    </div>
+    <div class="header-menu-appear-Main">
+      <ul>
+        <img id = "arm1" src="Img/Armenia.png" alt="">
+        <img id = "eng1" src="Img/USA.png" alt="">
+          <li class="header-menu-appear-Main-ul-li header-nav-ul-li header-nav-ul-li2 menu">Menu</li>
+          <li class="header-menu-appear-Main-ul-li header-nav-ul-li header-nav-ul-li3 about">About</li>
+          <li class="header-menu-appear-Main-ul-li header-nav-ul-li header-nav-ul-li4 shop">Shop</li>
+          <li class="header-menu-appear-Main-ul-li header-nav-ul-li header-nav-ul-li5 contact">Contact</li>
+      </ul>
+    </div>
+  </div>
+  <div class="header-like-appear1">
+    <div class="header-like-appear-topHeader1">
+      <p class="favorite" >FAVORITE</p>
+      <span class="header-like-appear-close1 close">CLOSE <strong>X</strong></span>
+    </div>
+    <div class="header-like-appear-Main1"></div>
+  </div>
+  <div class="header-shoping-cart-appear">
+    <div class="header-shoping-cart-appear-topHeader">
+      <p class="cart">SHOPPING CART</p>
+      <span class="header-shoping-cart-appear-close close">CLOSE <strong>X</strong></span>
+    </div>
+    <div class="header-shoping-cart-appear-Main"></div>
+  </div>
+  <div class="adaptive-bottom-header">
+    <div class="adaptive-bottom-header-smallDiv adaptive-bottom-header-smallDiv-first header-search1">
+      <img src="Img/search.png" alt="">
+      <p class="search" >Search</p>
+    </div>
+    <div class="adaptive-bottom-header-smallDiv adaptive-bottom-header-smallDiv-middle">
+      <img src="Img/like.png" alt="">
+      <p class="favorite">Favorite</p>
+    </div>
+    <div class="adaptive-bottom-header-smallDiv adaptive-bottom-header-smallDiv-third">
+      <img src="Img/shopping-cart (1).png" alt="">
+      <p class="cart">Shopping-Cart</p>
+    </div>
+  </div>
+  <div class="search-appear">
+        <img class="search-appear-wrapper-cancle cancel" src="Img/cancel.png" alt="">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for foods.." title="Type in a name">
+          <ul class="search-appear-main" id="myUL">
+            <li>
+              <a href="#">Pizza</a>
+              <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+                <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+                <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+                <div class="section2-wrapper-main-offers-div-with-img">
+                  <img src="Img/dishes1.png" alt="" />
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-text">
+                  <p>BBQ chicken breast</p>
+                  <span>A mighty meaty double helping of all <br />
+                    the reasons you love our burger.</span>
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-prise">
+                  <div class="amd">
+                    <span class="amd-span">AMD-</span>
+                  <strong class="amd-strong">8000</strong>
+                  </div>
+                  <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                    <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+                <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+                <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+                <div class="section2-wrapper-main-offers-div-with-img">
+                  <img src="Img/dishes1.png" alt="" />
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-text">
+                  <p>BBQ chicken breast</p>
+                  <span>A mighty meaty double helping of all <br />
+                    the reasons you love our burger.</span>
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-prise">
+                  <div class="amd">
+                    <span class="amd-span">AMD-</span>
+                  <strong class="amd-strong">8000</strong>
+                  </div>
+                  <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                    <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+                <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+                <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+                <div class="section2-wrapper-main-offers-div-with-img">
+                  <img src="Img/dishes1.png" alt="" />
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-text">
+                  <p>BBQ chicken breast</p>
+                  <span>A mighty meaty double helping of all <br />
+                    the reasons you love our burger.</span>
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-prise">
+                  <div class="amd">
+                    <span class="amd-span">AMD-</span>
+                  <strong class="amd-strong">8000</strong>
+                  </div>
+                  <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                    <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+                <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+                <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+                <div class="section2-wrapper-main-offers-div-with-img">
+                  <img src="Img/dishes1.png" alt="" />
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-text">
+                  <p>BBQ chicken breast</p>
+                  <span>A mighty meaty double helping of all <br />
+                    the reasons you love our burger.</span>
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-prise">
+                  <div class="amd">
+                    <span class="amd-span">AMD-</span>
+                  <strong class="amd-strong">8000</strong>
+                  </div>
+                  <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                    <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+                <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+                <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+                <div class="section2-wrapper-main-offers-div-with-img">
+                  <img src="Img/dishes1.png" alt="" />
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-text">
+                  <p>BBQ chicken breast</p>
+                  <span>A mighty meaty double helping of all <br />
+                    the reasons you love our burger.</span>
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-prise">
+                  <div class="amd">
+                    <span class="amd-span">AMD-</span>
+                  <strong class="amd-strong">8000</strong>
+                  </div>
+                  <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                    <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+                <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+                <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+                <div class="section2-wrapper-main-offers-div-with-img">
+                  <img src="Img/dishes1.png" alt="" />
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-text">
+                  <p>BBQ chicken breast</p>
+                  <span>A mighty meaty double helping of all <br />
+                    the reasons you love our burger.</span>
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-prise">
+                  <div class="amd">
+                    <span class="amd-span">AMD-</span>
+                  <strong class="amd-strong">8000</strong>
+                  </div>
+                  <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                    <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+                <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+                <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+                <div class="section2-wrapper-main-offers-div-with-img">
+                  <img src="Img/dishes1.png" alt="" />
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-text">
+                  <p>BBQ chicken breast</p>
+                  <span>A mighty meaty double helping of all <br />
+                    the reasons you love our burger.</span>
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-prise">
+                  <div class="amd">
+                    <span class="amd-span">AMD-</span>
+                  <strong class="amd-strong">8000</strong>
+                  </div>
+                  <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                    <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+                <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+                <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+                <div class="section2-wrapper-main-offers-div-with-img">
+                  <img src="Img/dishes1.png" alt="" />
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-text">
+                  <p>BBQ chicken breast</p>
+                  <span>A mighty meaty double helping of all <br />
+                    the reasons you love our burger.</span>
+                </div>
+                <div class="section2-wrapper-main-offers-div-with-prise">
+                  <div class="amd">
+                    <span class="amd-span">AMD-</span>
+                  <strong class="amd-strong">8000</strong>
+                  </div>
+                  <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                    <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#">Sushi</a>
+            </li>
+            <li>
+              <a href="#">Salats</a>
+            </li>
+            <li>
+              <a href="#">Burger</a>
+            </li>
+            <li>
+              <a href="#">Drinks</a>
+            </li>
+          </ul>
+  </div>
+  <div class="header-shoping-cart-appear">
+    <div class="header-shoping-cart-appear-topHeader">
+      <p class="cart">SHOPPING CART</p>
+      <span class="header-shoping-cart-appear-close close">CLOSE <strong>X</strong></span>
+    </div>
+    <div class="header-shoping-cart-appear-Main"></div>
+  </div>
+  <div class="header-like-appear">
+    <div class="header-like-appear-topHeader">
+      <p class="favorite">FAVORITE</p>
+      <span class="header-like-appear-close close">CLOSE <strong>X</strong></span>
+    </div>
+    <div class="header-like-appear-Main"></div>
+  </div>
+  <section class="section1">
+    <div class="section1-wrapper">
+      <div class="section1-wrapper-div1">
+        <p class="section1-wrapper-div1-p unlimited">
+          UNLIMITED <br class="br" />
+          MEDIUM <span class="section1-wrapper-div1-span"> PIZZA </span>
+        </p>
+        <div class="section1-wrapper-div1-inside1">
+          <p class="Medium2">Medium 2-topping* pizza</p>
+          <span class="Additional">*Additional charge for premium toppings. Minimum of 2
+            required.</span>
+        </div>
+        <div class="section1-wrapper-div1-inside2">
+          <div class="section1-wrapper-div1-inside2-btn">
+            <a class="ORDER" href="#">ORDER NOW</a>
+          </div>
+          <p>$12.99 <span>$19.99</span></p>
+        </div>
+      </div>
+      <div class="section1-wrapper-div2">
+        <img class="section1-wrapper-div2-img" src="Img/pizza.png" alt="" />
+      </div>
+    </div>
+  </section>
+  <a class="outside-menu menu" href="#">MENUS</a>
+  <div class="outside-div-menu">
+    <!-- <a id="pizza" class="section2-wrapper-nav-a1 pizza" onclick="section2Upgrade1()" href="#PIZZA">PIZZA</a>
+    <a id="sushi" class="section2-wrapper-nav-a2 sushi" onclick="section2Upgrade2()" href="#SUSHI">SUSHI</a>
+    <a id="salats" class="section2-wrapper-nav-a3 salates" onclick="section2Upgrade3()" href="#SALATS">SALATS</a>
+    <a id="burger" class="section2-wrapper-nav-a4 burger" onclick="section2Upgrade4()" href="#BURGER">BURGER</a>
+    <a id="drinks" class="section2-wrapper-nav-a5 drinks" onclick="section2Upgrade5()" href="#DERSEST">DRINKS</a> -->
+    <div class="outside-div-menu-wrapper">
+      <div class="outside-div-menu-wrapper1" >
+        <div class="outside-div-menu-wrapper-divs outside-div-menu-wrapper-div1">
+          <img class="outside-div-menu-wrapper-divs-sparakles" src="Img/sparakles.png" alt="" />
+          <a onclick="section2Upgrade1()" href="#PIZZA"><img class="offering-images" src="Img/burger.png" alt="" /></a>
+          <p class="outside-div-menu-wrapper-divs-p1 combo">COMBO</p>
+        </div>
+        <div class="outside-div-menu-wrapper-divs outside-div-menu-wrapper-div2">
+          <img class="outside-div-menu-wrapper-divs-sparakles" src="Img/sparakles.png" alt="" />
+          <a onclick="section2Upgrade2()" href="#SUSHI"><img class="offering-images" src="Img/pizza1.png" alt="" /></a>
+          <p class="outside-div-menu-wrapper-divs-p2 pizza">PIZZA</p>
+        </div>
+        <div class="outside-div-menu-wrapper-divs outside-div-menu-wrapper-div3">
+          <img class="outside-div-menu-wrapper-divs-sparakles" src="Img/sparakles.png" alt="" />
+          <a onclick="section2Upgrade3()" href="#SALATS"><img class="offering-images offering-images-edit1" src="Img/chicken.png" alt="" /></a>
+          <p class="outside-div-menu-wrapper-divs-p3 chicken">CHICKEN</p>
+        </div>
+        <div class="outside-div-menu-wrapper-divs outside-div-menu-wrapper-div4">
+          <img class="outside-div-menu-wrapper-divs-sparakles" src="Img/sparakles.png" alt="" />
+          <a onclick="section2Upgrade4()" href="#BURGER"><img class="offering-images offering-images-edit2" src="Img/drinks.png" alt="" /></a>
+          <p class="outside-div-menu-wrapper-divs-p4 drinks">DRINKS</p>
+        </div>
+        <div class="outside-div-menu-wrapper-divs outside-div-menu-wrapper-div5">
+          <img class="outside-div-menu-wrapper-divs-sparakles" src="Img/sparakles.png" alt="" />
+          <a onclick="section2Upgrade5()" href="#DERSEST"><img class="offering-images offering-images-edit3" src="Img/sauces.png" alt="" /></a>
+          <p class="outside-div-menu-wrapper-divs-p5 sauces">SAUCES</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="outside-offer-div">
+    <div class="outside-offer-div-wrapper">
+      <div class="outside-offer-div-wrapper-offers outside-offer-div-wrapper-offer1">
+        <div class="outside-offer-div-wrapper-offers-divs outside-offer-div-wrapper-offers-div1">
+          <p class="day">
+            Any day <br class="br" />
+            offers
+          </p>
+          <br />
+          <span class="PHENOMENON">NEW PHENOMENON <br />
+            BURGER TASTE</span>
+          <strong class="price12">$12.90</strong>
+        </div>
+        <div class="outside-offer-div-wrapper-offers-divs-div outside-offer-div-wrapper-offers-divs-div1">
+          <img class="outside-offer-div-wrapper-offers-divs-div-back outside-offer-div-wrapper-offers-divs-div-back1" src="Img/circle-yellow.png" alt="">
+          <img class="outside-offer-div-wrapper-offers-divs-div-food" src="Img/burger2.png" alt="" />
+        </div>
+      </div>
+      <div class="outside-offer-div-wrapper-offers outside-offer-div-wrapper-offer2">
+        <div class="outside-offer-div-wrapper-offers-divs outside-offer-div-wrapper-offers-div2">
+          <p class="Other">
+            Other <br class="br"/>
+            flavors
+          </p>
+          <br />
+          <span class="save_room">SAVE ROOM. <br />
+            WE MADE SALATS</span>
+          <strong>$12.90</strong>
+        </div>
+        <div class="outside-offer-div-wrapper-offers-divs-div outside-offer-div-wrapper-offers-divs-div2">
+          <img class="outside-offer-div-wrapper-offers-divs-div-back outside-offer-div-wrapper-offers-divs-div-back2" src="Img/moon.png" alt="">
+          <img class="outside-offer-div-wrapper-offers-divs-div-food" src="Img/Sauces2.png" alt="" />
+        </div>
+      </div>
+      <div class="outside-offer-div-wrapper-offers outside-offer-div-wrapper-offer3">
+        <div class="outside-offer-div-wrapper-offers-divs outside-offer-div-wrapper-offers-div3">
+          <p class="poco_store">
+            Find a Poco <br class="br"/>
+            store <br />
+            near you
+          </p>
+          <a class="contact_us" href="#">CONTACT US</a>
+        </div>
+        <div class="outside-offer-div-wrapper-offers-divs-div outside-offer-div-wrapper-offers-divs-div3">
+          <img class="outside-offer-div-wrapper-offers-divs-div-back outside-offer-div-wrapper-offers-divs-div-back3" src="Img/moon.png" alt="">
+          <img class="outside-offer-div-wrapper-offers-divs-div-food" src="Img/map.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="menu-foods" class="section2">
+    <div class="section2-wrapper">
+      <h2 class="section2-wrapper-h2 popular_dishes">Popular dishes</h2>
+      <nav class="section2-wrapper-nav">
+        <a id="pizza" class="section2-wrapper-nav-a1 pizza" onclick="section2Upgrade1()" href="#PIZZA">PIZZA</a>
+        <a id="sushi" class="section2-wrapper-nav-a2 sushi" onclick="section2Upgrade2()" href="#SUSHI">SUSHI</a>
+        <a id="salats" class="section2-wrapper-nav-a3 salates" onclick="section2Upgrade3()" href="#SALATS">SALATS</a>
+        <a id="burger" class="section2-wrapper-nav-a4 burger" onclick="section2Upgrade4()" href="#BURGER">BURGER</a>
+        <a id="drinks" class="section2-wrapper-nav-a5 drinks" onclick="section2Upgrade5()" href="#DERSEST">DRINKS</a>
+      </nav>
+      <div id="PIZZA" class="section2-wrapper-main">
+        <div class="section2-wrapper-main-first4_offers section2-wrapper-main-offers section2-wrapper-main-offer1">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth1">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes1.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">8000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart1" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth2">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart2" class="section2-shopping-cart"  src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth3">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes1.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart3" class="section2-shopping-cart"  src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth4">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes1.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>              
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart4" class="section2-shopping-cart"  src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2-wrapper-main-second4_offers section2-wrapper-main-offers section2-wrapper-main-offer2">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth5">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes1.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart5" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth6">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes1.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart6" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth7">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes1.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart7" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth8">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes1.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart8" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /////////////// -->
+      <div id="SUSHI" class="section2-wrapper-main">
+        <div class="section2-wrapper-main-first4_offers section2-wrapper-main-offers section2-wrapper-main-offer3">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth9">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart9" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth10">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart10" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth11">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart11" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth  section2-wrapper-main-offers-div-hearth12">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart12" class="section2-shopping-cart"src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2-wrapper-main-second4_offers section2-wrapper-main-offers section2-wrapper-main-offer4">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth13">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart13" class="section2-shopping-cart"src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth14">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart14" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth15">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart15"  class="section2-shopping-cart"src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth16">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes2.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart16" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //////////////// -->
+      <div id="SALATS" class="section2-wrapper-main">
+        <div class="section2-wrapper-main-first4_offers section2-wrapper-main-offers section2-wrapper-main-offer5">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth17">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes3.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart17" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth18">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes3.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart18" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth19">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes3.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart19" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth20">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes3.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart20" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2-wrapper-main-second4_offers section2-wrapper-main-offers section2-wrapper-main-offer6">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth21">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes3.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart21" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth22">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes3.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart22" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth23">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes3.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart23" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth24">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes3.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart24" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /////////// -->
+      <div id="BURGER" class="section2-wrapper-main">
+        <div class="section2-wrapper-main-first4_offers section2-wrapper-main-offers section2-wrapper-main-offer7">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth25">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes4.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart25" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth26">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes4.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart26" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth27">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes4.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart27" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth28">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes4.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart28" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2-wrapper-main-second4_offers section2-wrapper-main-offers section2-wrapper-main-offer8">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth29">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes4.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart29" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth30">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes4.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart30" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth31">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes4.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart31" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth32">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes4.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart32" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /////// -->
+      <div id="DERSEST" class="section2-wrapper-main">
+        <div class="section2-wrapper-main-first4_offers section2-wrapper-main-offers section2-wrapper-main-offer9">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth33">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes5.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart33" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth34">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes5.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart34" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth35">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes5.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart35" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth36">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes5.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart36" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2-wrapper-main-second4_offers section2-wrapper-main-offers section2-wrapper-main-offer10">
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div1">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth37">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes5.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart37" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div2">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth38">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes5.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart38" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div3">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth39">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes5.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart39" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="section2-wrapper-main-offers-div section2-wrapper-main-offers-div4">
+            <strong class="section2-wrapper-main-offers-div-hearth section2-wrapper-main-offers-div-hearth40">&#10084;</strong>
+            <strong class="section2-wrapper-main-offers-div-close">&#10006;</strong>
+            <div class="section2-wrapper-main-offers-div-with-img">
+              <img src="Img/dishes5.png" alt="" />
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-text">
+              <p>BBQ chicken breast</p>
+              <span>A mighty meaty double helping of all <br />
+                the reasons you love our burger.</span>
+            </div>
+            <div class="section2-wrapper-main-offers-div-with-prise">
+              <div class="amd">
+                <span class="amd-span">AMD-</span>
+              <strong class="amd-strong40">4000</strong>
+              </div>
+              <div class="section2-wrapper-main-offers-div-with-prise-shopping-bag">
+                <img id="section2-shopping-cart40" class="section2-shopping-cart" src="Img/shopping-cart (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="addedToBag">
+      <p>Added to Shop-Bag</p>
+    </div>
+  </section>
+  <div class="plus-minus">
+    <div class="plus-minus-wrapper">
+      <div class="minus klor"><img class="plusmin" src="./Img/minus.png" alt=""></div>
+      <div class="p1">0</div>
+      <div class="plus klor"><img class="plusmin" src="./Img/add.png" alt=""></div>
+    </div>
+  </div>
+  <section class="section3">
+    <div class="section3-wrapper">
+      <div class="section3-small-div">
+        <p class="section3-small-div-p1">Hot Fresh</p>
+        <span class="hotdog" >HOTDOG</span>
+        <div class="sec3-btn order_now">ORDER NOW</div>
+        <img class="th1" src="./Img/thunder2.png" alt="">
+        <img class="th2" src="./Img/thuner1.png" alt="">
+        <img class="mitq" src="./Img/Background.png" alt="">
+      </div>
+      <p class="pp">50%<br>OFF</p>
+    </div>
+  </section>
+
+  <section class="section4">
+    <div class="section4-wrapper">
+      <div class="section4-small1">
+        <p class="always_quality">Always Quality</p>
+        <span class="our_services">Our Servcies</span>
+      </div>
+      <div class="section4-small2">
+        <div class="section4-squares">
+          <img src="./Img/yellow-burger.png" alt="">
+          <p class="QUALITY">QUALITY FOODS</p>
+          <span class="quickly">Everything you order will be quickly<br> delivered to your door.</span>
+        </div>
+        <div class="section4-squares">
+          <img src="./Img/screenshot.png" alt="">
+          <p class="RECIPES">ORIGINAL RECIPES</p>
+          <span class="restaurants">Poco is an international chain of family<br> restaurants.</span>
+        </div>
+        <div class="section4-squares">
+          <img src="./Img/screenshot1.png" alt="">
+          <p class="DELIVERY">FAST DELIVERY</p>
+          <span class="shipping">Sign up for updates and get<br> free shipping</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section5">
+    <div class="section5-wrapper">
+      <div class="section5-small1">
+        <p class="chefs">Our Talented Chefs</p>
+      </div>
+      <div class="section5-small2">
+        <div class="section5-small2-small">
+          <img class="section5-small2-small-img1" src="Img/Chef.png" alt="">
+          <div class="section5-small2-small-proffesion1 section5-small2-small-proffesion">
+            <p>CHEF</p>
+          </div>
+          <div class="small-small">
+            <p>WILLIAM SMITH</p>
+            <span>Everything We Pizza, We Pizza With Love. Designer Fastfood.</span>
+          </div>
+          <div class="section5-small2-small-social-media">
+            <img class="section5-small2-small-social-media-facebook" src="Img/facebook.png" alt="">
+            <img class="section5-small2-small-social-media-instagram" src="Img/instagram.png" alt="">
+            <img class="section5-small2-small-social-media-youtube" src="Img/youtube.png" alt="">
+          </div>
+        </div>
+        <div class="section5-small2-small">
+          <img class="section5-small2-small-img1" src="Img/Chef.png" alt="">
+          <div class="section5-small2-small-proffesion2 section5-small2-small-proffesion">
+            <p>MANAGER</p>
+          </div>
+          <div class="small-small">
+            <p>WILLIAM SMITH</p>
+            <span>Everything We Pizza, We Pizza With Love. Designer Fastfood.</span>
+          </div>
+          <div class="section5-small2-small-social-media">
+            <img class="section5-small2-small-social-media-facebook" src="Img/facebook.png" alt="">
+            <img class="section5-small2-small-social-media-instagram" src="Img/instagram.png" alt="">
+            <img class="section5-small2-small-social-media-youtube" src="Img/youtube.png" alt="">
+          </div>
+        </div>
+        <div class="section5-small2-small">
+          <img class="section5-small2-small-img1" src="Img/Chef.png" alt="">
+          <div class="section5-small2-small-proffesion3 section5-small2-small-proffesion">
+            <p>CHEF</p>
+          </div>
+          <div class="small-small">
+            <p>WILLIAM SMITH</p>
+            <span>Everything We Pizza, We Pizza With Love. Designer Fastfood.</span>
+          </div>
+          <div class="section5-small2-small-social-media">
+            <img class="section5-small2-small-social-media-facebook" src="Img/facebook.png" alt="">
+            <img class="section5-small2-small-social-media-instagram" src="Img/instagram.png" alt="">
+            <img class="section5-small2-small-social-media-youtube" src="Img/youtube.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section6" class="section6">
+    <div class="section6-wrapper">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.9330189142556!2d44.501279515701675!3d40.210552876076214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd4e4c3564a5%3A0x6c75d8b0b7e883b5!2z0KDQvtGB0YHQuNC50YHQutC-LdCQ0YDQvNGP0L3RgdC60LjQuSDQo9C90LjQstC10YDRgdC40YLQtdGC!5e0!3m2!1sru!2s!4v1656418522121!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <form action="" class="section6-small1">
+        <div class="section6-small1-small">
+          <p class="reservation">Reservation</p>
+          <span class="book">Book Your Table</span>
+        </div>
+        <div class="inputs-div">
+          <input class="name inp" type="name" placeholder="Your name">
+          <input class="email inp" type="email" placeholder="Your email">
+        </div>
+        <input class="phone" type="tel" placeholder="Your phone">
+        <div class="inputs-div">
+          <input class="date inp" type="date" placeholder="6/28/2022">
+          <input class="date inp" type="time" placeholder="00:00 Am">
+        </div>
+        <select class="select">
+          <option value="1 people">1 people</option>
+          <option value="2 people">2 people</option>
+          <option value="3 people">3 people</option>
+          <option value="4 people">4 people</option>
+        </select>
+        <input class="sbm" type="submit" value="BOOK NOW">
+      </form>
+      <a class="our-address" href="https://www.google.com.sa/maps/place/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE-%D0%90%D1%80%D0%BC%D1%8F%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82/@40.2105529,44.5012795,17z/data=!3m1!4b1!4m5!3m4!1s0x406abd4e4c3564a5:0x6c75d8b0b7e883b5!8m2!3d40.2105488!4d44.5034682" target="_blank">OUR ADDRESS</a>
+    </div>
+  </section>
+  <div class="hr-div">
+    <div class="hr"></div>
+    <img src="./Img/logo.png" alt="">
+    <div class="hr"></div>
+  </div>
+  <footer class="footer">
+    <form action="" class="footer-wrapper">
+      <div class="address">
+        <p class="p-one">ADDRESS</p>
+        <span class="span-one">570 8th Ave,<br class="br"> New York, NY 10018<br class="br"> United States</span>
+      </div>
+      <div class="address address-book">
+        <p class="p-two">BOOK A TABLE</p>
+        <span class="span-two">Dogfood och Sliders foodtruck.<br class="br">Under Om oss kan ni läsa</span>
+        <b class="b-one">(850) 435-4155</b>
+      </div>
+      <div class="address hours">
+        <p class="p-three">OPENING HOURS</p>
+        <span class="span-three">Monday – Friday: 8am – 4pm<br class="br">Saturday: 9am – 5pm</span>
+      </div>
+      <div class="address address1">
+        <p class="p-four">NEWSLETTER</p>
+        <span class="span-four">Subscribe to the weekly newsletter for all<br class="br">the latest updates</span>
+        <input class="inpt" type="email" placeholder="Your Email...">
+        <input class="submit" type="submit" value="SUBSCRIBE">
+      </div>
+    </form>
+  </footer>
+  <div class="last-footer">
+    <div class="last-footer-wrapper">
+      <p>Copyright © 2022 <span>pocofood</span>. All Rights Reserved.</p>
+      <img src="./Img/cards.png" alt="">
+    </div>
+  </div>
+  <div class="invisible"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
